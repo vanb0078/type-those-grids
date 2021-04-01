@@ -1,7 +1,17 @@
 html {
   box-sizing: border-box;
+  font-family: serif;
+  line-height: 1.5;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
+}
+
+header img {
+  width: 100%;
+}
+
+main img {
+  width: 33%;
 }
