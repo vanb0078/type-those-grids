@@ -8,10 +8,15 @@ html {
   box-sizing: inherit;
 }
 
-header img {
+img {
   width: 100%;
 }
 
-main img {
-  width: 33%;
+main {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-areas:
+  "banner banner banner"
+  "col1 col2 col3";
+  gap: .75rem;
 }
