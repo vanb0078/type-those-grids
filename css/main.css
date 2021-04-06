@@ -20,3 +20,7 @@ main {
   "col1 col2 col3";
   gap: .75rem;
 }
+
+.img-banner {
+  grid-area: banner;
+}
